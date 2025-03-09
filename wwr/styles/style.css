@@ -222,6 +222,38 @@ nav a:hover {
     width: 100%;
 }
 
+/*-----------------------------------------------------------------------------------------------*/
+/*CSS for River page (page 2)*/
+
+.river-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.river-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.river-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.river-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.info-reverse {
+    flex-direction: row-reverse;
+}
+
 /*Media query for smaller devices */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -264,5 +296,15 @@ nav a:hover {
     }
     footer {
         margin-top: 25px;
+    }
+    .river-info {
+        flex-direction: column;
+        text-align: center;
+    }
+    .info-reverse {
+        flex-direction: column;
+    }
+    .river-text {
+        text-align: center;
     }
 }
