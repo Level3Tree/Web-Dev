@@ -52,10 +52,24 @@ BYU-Idaho | Teacher: Carl Bohman
                     <p>This is a screenshot of my first completed game project that pays homage to Asteroids.</p>
                 </div>
                 <div class="feature-box">
-                    <img src="images/platformer.png" alt="Platformer image">
+                        <!-- Trigger the Modal -->
+                    <img id="myImg" src="images/platformer.png" alt="Platformer image" style="width:100%;max-width:300px">
                     <p>This is a screenshot of a game project I am currently working on being a small platformer/shooter game.</p>
                 </div>
             </section>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+            </div> 
         </div>
     </main>
     <!-- Footer section -->
@@ -72,5 +86,7 @@ BYU-Idaho | Teacher: Carl Bohman
             </div>
         </div>
     </footer>
+    <!-- Javascript section for Modal image-->
+     <script type="text/Javascript" src="script.js"></script>
 </body>
 </html>
