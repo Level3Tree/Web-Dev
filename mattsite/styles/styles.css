@@ -82,6 +82,7 @@ main {
 /* Overview section */
 .overview {
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .overview-text {
@@ -101,11 +102,18 @@ main {
 }
 
 /* Features section */
+.features h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 .features {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+    text-align: center;
 }
 
 .feature-box {
