@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     line-height: 1.6;
     color: #143447;
     background-color: white;
@@ -55,6 +57,9 @@ nav ul li a {
     text-decoration: none;
     color: #333;
     transition: color 0.3s;
+    padding: 8px 12px;
+    border-radius: 4px;
+    display: block;
 }
 
 nav ul li a:hover {
@@ -68,6 +73,8 @@ nav ul li a:hover {
     padding: 8px 15px;
     border-radius: 4px;
     transition: background-color 0.3s;
+    text-decoration: underline;
+    display: inline-block;
 }
 
 .btn:hover {
@@ -81,11 +88,13 @@ main {
 
 /* Overview section */
 .overview {
+    font-family: "Orbitron", Arial, sans-serif;
     margin-bottom: 40px;
     text-align: center;
 }
 
 .overview-text {
+    font-family: "Roboto", Arial, sans-serif;
     border: 1px solid #ddd;
     padding: 30px;
     text-align: center;
@@ -103,6 +112,7 @@ main {
 
 /* Features section */
 .features h2 {
+    font-family: "Orbitron", Arial, sans-serif;
     text-align: center;
     width: 100%;
     margin-bottom: 30px;
@@ -122,6 +132,7 @@ main {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
 .features img {
@@ -135,6 +146,7 @@ main {
 .feature-box p {
     color: #666;
     font-size: 14px;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
 .features-autoinstall img {
@@ -146,6 +158,7 @@ main {
 }
 
 .auto-install-text h2 {
+    font-family: "Roboto", Arial, sans-serif;
     text-align: center;
     margin-bottom: 15px;
 }
