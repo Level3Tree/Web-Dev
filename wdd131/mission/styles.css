@@ -6,3 +6,39 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.title h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.title h2 {
+    color: #006EB6;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+main p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.does-list {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 30px;
+}
