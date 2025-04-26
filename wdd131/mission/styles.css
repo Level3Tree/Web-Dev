@@ -11,6 +11,8 @@ body {
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
 }
 
 .title h1 {
