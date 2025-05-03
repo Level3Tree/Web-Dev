@@ -44,3 +44,13 @@ main p {
     width: 150px;
     margin-top: 30px;
 }
+
+/*----------Dark Mode----------*/
+body.dark {
+    background-color: #333;
+    color: white;
+}
+
+body.dark h2 {
+    color: rgb(160, 212, 237);
+}
