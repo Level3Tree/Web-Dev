@@ -82,7 +82,6 @@ button.menu {
     margin: 0.5rem 0;
 }
   
-  /* Main Content Styles */
 main {
     padding: 1rem;
 }
@@ -92,7 +91,6 @@ main h2 {
     margin: 1rem 0;
 }
   
-/* Gallery Styles */
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
