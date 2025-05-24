@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A blog about books for kids - reviews and recommendations for young readers">
+    <meta name="author" content="Kids Read for Fun">
+    <title>Kids Read for Fun - Book Reviews for Young Readers</title>
+    <link rel="stylesheet" href="blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
+    <script src="blog.js" defer></script>
+</head>
+<body>
+    <header>
+    <div class="skiptocontent">
+        <a href="#maincontent">skip to main content</a>
+    </div>
+        <h1>Kids Read for Fun</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#archive">Archive</a></li>
+            <li><a href="#search">Search</a></li>
+        </ul>
+    </nav>
+    <main id="maincontent">
+        <section class="content">
+            <article>
+                <div class="article-meta">
+                    <div class="article-date">July 5, 2022</div>
+                    <div class="article-ages">10-14</div>
+                    <div class="article-genre">Fantasy</div>
+                    <div class="article-rating">****</div>
+                </div>
+                <div class="article-content">
+                    <div class="article-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/5/5f/Magkycover2.jpg" 
+                        alt="Book cover for Septimus Heap 1">
+                    </div>
+                    <div class="article-text">
+                        <h2>Septimus Heap Book One: Magyk</h2>
+                        <p>If you enjoy stories about seventh sons of seventh sons and magyk this 
+                            is the book for you.</p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="article-meta">
+                    <div class="article-date">December 12, 2021</div>
+                    <div class="article-ages">12-16</div>
+                    <div class="article-genre">Fantasy</div>
+                    <div class="article-rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="article-content">
+                    <div class="article-image">
+                        <img src="https://books.google.com/books/content/images/frontcover/xWuyBAAAQBAJ?fife=w300" 
+                        alt="Book cover for Magnus Chase 1">
+                    </div>
+                    <div class="article-text">
+                        <h2>Magnus Chase Book One: Sword of Summer</h2>
+                        <p>The anticipated new novel by Rick Riordan. 
+                            After Greek mythology (Percy Jackson), Greek/Roman (Heroes of Olympus), 
+                            and Egyptian (Kane Chronicles), Rick decides to try his hand with Norse 
+                            Mythology, and the end result is good.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <aside>
+            <div class="filter-section">
+                <label for="sort">Sort:</label>
+                <select id="sort" name="sort">
+                    <option value="">Select sort option</option>
+                    <option value="date">Date</option>
+                    <option value="title">Title</option>
+                    <option value="rating">Rating</option>
+                </select>
+            </div>
+            <div class="filter-section">
+                <label for="age">Age:</label>
+                <select id="age" name="age">
+                    <option value="">Select age range</option>
+                    <option value="0-5">0-5</option>
+                    <option value="6-9">6-9</option>
+                    <option value="10-14">10-14</option>
+                    <option value="12-16">12-16</option>
+                </select>
+            </div>
+            <div class="filter-section">
+                <label for="genre">Genre:</label>
+                <select id="genre" name="genre">
+                    <option value="">Select genre</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="sci-fi">Science Fiction</option>
+                </select>
+            </div>
+            <div class="filter-section">
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating">
+                    <option value="">Select rating</option>
+                    <option value="5">5 Stars</option>
+                    <option value="4">4 Stars</option>
+                    <option value="3">3 Stars</option>
+                    <option value="2">2 Stars</option>
+                    <option value="1">1 Star</option>
+                </select>
+            </div>
+        </aside>
+    </main>
+    <div class="placeholder-note">
+        <p><strong>Note:</strong> Filter form will go here</p>
+    </div>
+</body>
+</html>
