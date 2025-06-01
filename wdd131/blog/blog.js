@@ -1,35 +1,3 @@
-const articlesContainer = document.querySelector('#articles');
-
-articles.forEach(item => {
-  const article = document.createElement('article');
-  article.classList.add('book-review');
-
-  const template = `
-    <div class="article-content">
-      <div class="article-meta">
-        <div class="article-date">${item.date}</div>
-        <div class="article-ages">${item.ages}</div>
-        <div class="article-genre">${item.genre}</div>
-        <div class="article-rating">${item.stars}</div>
-      </div>
-      <div class="article-body">
-        <div class="article-image">
-          <img src="${item.imgSrc}" alt="${item.imgAlt}">
-        </div>
-        <div class="article-text">
-          <h2>${item.title}</h2>
-          <p>${item.description}</p>
-        </div>
-      </div>
-    </div>
-  `;
-
-  article.innerHTML = template;
-  articlesContainer.appendChild(article);
-});
-
-
-
 const articles = [
 	{
 		id: 1,
@@ -70,3 +38,35 @@ const articles = [
 		stars: "⭐⭐⭐⭐⭐"
 	}
 ]
+
+const articlesContainer = document.querySelector('#articles');
+
+articles.forEach(item => {
+  const article = document.createElement('article');
+  article.classList.add('book-review');
+
+  const template = `
+    <div class="article-content">
+      <div class="article-meta">
+        <div class="article-date">${item.date}</div>
+        <div class="article-ages">${item.ages}</div>
+        <div class="article-genre">${item.genre}</div>
+        <div class="article-rating">${item.stars}</div>
+      </div>
+      <div class="article-body">
+	  	<div class="article-text">
+          <h2>${item.title}</h2>
+        </div>
+        <div class="article-image">
+          <img src="${item.imgSrc}" alt="${item.imgAlt}">
+        </div>
+        <div class="article-text">
+          <p>${item.description}</p>
+        </div>
+      </div>
+    </div>
+  `;
+
+  article.innerHTML = template;
+  articlesContainer.appendChild(article);
+});
