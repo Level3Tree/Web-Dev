@@ -67,6 +67,7 @@ main {
 
 .content {
     background-color: white;
+    max-width: 1200px;
 }
 
 aside {
@@ -102,26 +103,45 @@ article {
     display: grid;
     grid-template-columns: 150px 1fr;
     overflow: hidden;
+    padding: 15px;
 }
 
 .article-meta {
     background-color: white;
-    padding: 20px;
+    padding: 20px 15px;
     text-align: left;
     border-right: 2px solid #EFC69B;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.article-date, .article-ages, .article-genre, .article-rating {
-    font-size: 14px;
+.article-date {
+    font-size: 18px;
     color: #473144;
     margin-bottom: 10px;
     font-weight: bold;
+    text-align: right;
+}
+
+.article-ages, .article-genre, .article-rating {
+    font-size: 14px;
+    color: #473144;
+    margin-bottom: 6px;
+    font-weight: bold;
+    text-align: right;
 }
 
 .article-content {
-    padding: 20px;
-    display: grid;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: 120px 1fr;
+    gap: 10px;
+}
+
+.article-body {
+    display: flex;
     gap: 20px;
 }
 
@@ -145,6 +165,7 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin: 0 0 15px 0
 }
 
 .article-text h2 {
@@ -160,16 +181,6 @@ article {
     color: #473144;
     line-height: 1.6;
     font-size: 16px;
-}
-
-.placeholder-note {
-    background-color: white;
-    border: 2px solid #EFC69B;
-    padding: 15px;
-    margin: 20px;
-    border-radius: 4px;
-    color: #473144;
-    font-style: italic;
 }
 
 .skiptocontent a {
