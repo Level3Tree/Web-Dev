@@ -22,19 +22,22 @@
                     <span id="card-image"></span>
                 </div>
             <label for="card-number">Card Number</label>
-            <input type="text" id="card-number" placeholder="1234 5678 9101 1020" length="16">
+            <input type="text" id="card-number" placeholder="1234 5678 9101 1020" length="16"
+            required pattern="[0-9]{16}"/>
                 <div id="cardholder-container">
                     <label for="card-holder">Card Holder</label>
-                    <input type="text" id="card-holder" placeholder="John Doe" />
+                    <input type="text" id="card-holder" placeholder="John Doe" 
+                    required/>
                 </div>
             <div id="exp-container">
                 <label for="card-exp">Expiration</label>
-                <input id="card-month" type="text" placeholder="MM" length="2">
-                <input id="card-year" type="text" placeholder="YY" length="2">
+                <input id="card-month" type="text" placeholder="MM" length="2" required pattern="\d{2}">
+                <input id="card-year" type="text" placeholder="YY" length="2" required pattern="\d{2}">
             </div>
             <div id="cvc-container">
                 <label for="card-cvc"> CVC/CVV</label>
-                <input id="card-cvc" placeholder="XXX" type="text" min-length="3" max-length="4">
+                <input id="card-cvc" placeholder="XXX" type="text" min-length="3" max-length="4"
+                required pattern="\d{3}">
             </div>
         </div>
         <div id="card-back">
