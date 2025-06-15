@@ -159,4 +159,18 @@
       width: 100%;
     }
   }
+  @media (min-width: 900px) {
+    .participants {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+    }
+    
+    .participants #add {
+        grid-column: 1 / -1;
+        justify-self: center;
+        margin-top: 10px;
+    }
+  }
   
