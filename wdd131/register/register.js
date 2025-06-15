@@ -49,6 +49,8 @@ document.querySelector("#add").addEventListener("click", () => {
   const newSection = participantTemplate(participantCount);
   const addBtn = document.querySelector("#add");
   addBtn.insertAdjacentHTML("beforebegin", newSection);
+  const fieldset = document.querySelector(".participants");
+  fieldset.classList.add("multiple-participants");
 });
 
 

@@ -160,16 +160,16 @@
     }
   }
   @media (min-width: 900px) {
-    .participants {
+    .participants.multiple-participants {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         align-items: start;
     }
     
-    .participants #add {
+    .participants.multiple-participants #add {
         grid-column: 1 / -1;
-        justify-self: center;
+        justify-self: left;
         margin-top: 10px;
     }
   }
