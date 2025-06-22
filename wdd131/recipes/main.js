@@ -1,14 +1,12 @@
-import recipes from './recipes.mjs'; // Import recipe data
+import recipes from './recipes.mjs';
 
-// Select the #recipes section from HTML
 const recipesSection = document.querySelector('#recipes');
 
-// Loop through each recipe and build the HTML card
+//Loop through recipes for cards
 recipes.forEach((recipe) => {
   const card = document.createElement('div');
   card.classList.add('recipe-card');
 
-  // Use template literals for better HTML structure
   card.innerHTML = `
     <img src="${recipe.image}" alt="${recipe.name}" />
     <h2>${recipe.name}</h2>
@@ -25,6 +23,5 @@ recipes.forEach((recipe) => {
     </ol>
   `;
 
-  // Add the card to the recipes section
   recipesSection.appendChild(card);
 });

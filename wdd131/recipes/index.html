@@ -3,25 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Small site showing some good recipes">
+    <meta name="description" content="A collection of delicious recipes for food enthusiasts">
     <meta name="author" content="Matt D'Angina">
-    <title>Recipe Book</title>
-    <link rel="icon" href="images/recipe-book.png" type="image/x-icon">
+    <meta property="og:title" content="Recipe Book - Delicious Recipes Collection">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Discover amazing recipes with step-by-step instructions and ratings">
+    <meta property="og:image" content="https://level3tree.github.io/Web-Dev/wdd131/recipes/images/recipe-book.png">
+    <meta property="og:url" content="https://level3tree.github.io/Web-Dev/wdd131/recipes/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Recipe Book - Delicious Recipes</title>
     <link rel="stylesheet" href="recipes.css">
-    <script src="main.js" defer></script>
+    <script type="module" src="main.js" defer></script>
 </head>
 <body>
     <header>
         <img src="images/recipe-book.png" alt="Recipe Book Logo">
         <h1>Recipe Book</h1>
-    </header>
-    <main>
         <form id="search">
             <input type="text" placeholder="Find a recipe" aria-label="search for a recipe" />
             <button type="submit" aria-label="Search">
-                <img src="images/search.svg" alt="Search icon">
+            <img src="images/search.svg" alt="Search icon">
             </button>
         </form>
+    </header>
+    <main>
+        <div class="tags">
+            <span>tags</span>
+        </div>
         <span
             class="rating"
             role="img"
