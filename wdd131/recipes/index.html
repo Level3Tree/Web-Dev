@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Small site showing some good recipes">
+    <meta name="author" content="Matt D'Angina">
+    <title>Recipe Book</title>
+    <link rel="icon" href="images/recipe-book.png" type="image/x-icon">
+    <link rel="stylesheet" href="recipes.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/recipe-book.png" alt="Recipe Book Logo">
+        <h1>Recipe Book</h1>
+    </header>
+    <main>
+        <form id="search">
+            <input type="text" placeholder="Find a recipe" aria-label="search for a recipe" />
+            <button type="submit" aria-label="Search">
+                <img src="images/search.svg" alt="Search icon">
+            </button>
+        </form>
+        <span
+            class="rating"
+            role="img"
+            aria-label="Rating: 4 out of 5 stars">
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star-empty">⭐</span>
+            <span aria-hidden="true" class="icon-star-empty">☆</span>
+        </span>
+    </main>
+    <footer>
+        <div class="social">
+	    <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
+	    <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
+	    <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
+	    <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+        </div>
+        <p class="attribution">
+            <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons 
+            created by Freepik - Flaticon</a>
+        </p>
+    </footer>
+</body>
+</html>
