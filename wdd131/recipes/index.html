@@ -27,20 +27,11 @@
         </form>
     </header>
     <main>
-        <div id ="recipes"></div>
-        <div class="tags">
-            <span>tags</span>
-        </div>
-        <span
-            class="rating"
-            role="img"
-            aria-label="Rating: 4 out of 5 stars">
-            <span aria-hidden="true" class="icon-star">⭐</span>
-            <span aria-hidden="true" class="icon-star">⭐</span>
-            <span aria-hidden="true" class="icon-star">⭐</span>
-            <span aria-hidden="true" class="icon-star-empty">⭐</span>
-            <span aria-hidden="true" class="icon-star-empty">☆</span>
-        </span>
+        <section class="filter-section">
+            <h2 class="visually-hidden">Filter by Tags</h2>
+            <div class="tags"></div>
+        </section>
+        <section id="recipes" aria-live="polite"></section>
     </main>
     <footer>
         <div class="social">
