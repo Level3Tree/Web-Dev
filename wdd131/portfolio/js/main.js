@@ -5,7 +5,7 @@ const closeBtn = document.querySelector(".close");
 
 const projectDetails = {
   1: {
-    image: "images/project1.jpg",
+    image: "images/dicegame.png",
     text: "Detailed explanation of Project 1. Tech used, purpose, challenges, etc."
   },
   2: {

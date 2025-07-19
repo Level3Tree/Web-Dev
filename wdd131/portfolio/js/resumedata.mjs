@@ -55,7 +55,7 @@ export const resume = {
   ],
   skills: {
     learning: {
-      "Programming & Scripting": ["CSS", "JavaScript", "C++", "Unreal Engine 5", "Godot 4"],
+      "Programming & Scripting": ["CSS", "JavaScript", "C++", "Unreal Engine 5", "Godot 4", "Linux (Arch)"],
       "Database & Data Tools": ["PostgreSQL", "DBeaver", "MongoDB", "Snowflake", "PowerBI"],
       "Collaboration & DevOps": ["GitLab", "Docker"]
     },

@@ -29,6 +29,17 @@ nav a {
   margin-left: 1rem;
 }
 
+nav a:hover {
+  background-color: white;
+  color: var(--secondary);
+}
+
+.logo img {
+  height: 75px;
+  width: auto;
+  display: block;
+}
+
 .contact-btn {
   background-color: var(--accent2);
   color: white;
